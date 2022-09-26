@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">"Thank you for taking time to help us improve the platform."</p>
+    <h1 id="title">Data Entry Form</h1>
+    <h2>Description</h2>
+    <p>This form is to collect data for the company to imporove on the function delevery anf your security is assured</p>
+    <p id="description">"Thank you for taking time to help us improve the platform."</p>
+    <form id = "survey-form">
+        <label id ="name-label">Name</label><br><input id = "name" type="text"  placeholder = "Write your name" required><br>
+    <label id ="email-label">Email</label> <input id="email" type="email" placeholder = "Write your email" required><br>
+        <label id="number-label">Age</label><input id="number" type="number" min = "5" max = "100" placeholder = "Enter age"></label>
+        <select id="dropdown" name="role">
+            <option value ="student">Student</option>
+            <option value="job">Full time/Part-time Job</option>
+        </select>
+        <p>Would you recomment us to your Friends?</p>
+        <label>Definitely yes<input name ="user recommend" type="radio" value ="sure"></label><br>
+        <label>Definitely no<input name ="user recommend" type="radio" value="sure"></label>
+        <p>What do you like about freecodecamp? </p>
+       <label><input type = "checkbox" value = "Free exercises">Free exercises</label>
+       <label> <input type = "checkbox" value = "Preview console is provided">Preview console is provided</label>
+       <label> <input type = "checkbox" value = "Free projects">Free projects</label>
+       <label> <input type = "checkbox" value = "Good explanations">Good explanations</label>
+        <p>Add your comment</p>
+       <textarea id = "comments"></textarea>
+       <button id = "submit" type = "submit">This button submits the form</button>
+    </form>    
+</body>
+</html>
